@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 :root {
-  --background-color: #E5E5E5;
-  --primary-color: #E7ECEF;
-  --secondary-half-color: #516F91;
-  --secondary-low-color: #879CB3;
-  --boxes-color: #F8F8FB;
+  --background-color: #e5e5e5;
+  --primary-color: #e7ecef;
+  --secondary-color: #274c77;
+  --secondary-half-color: #516f91;
+  --secondary-low-color: #879cb3;
+  --boxes-color: #f8f8fb;
 }
 
 body {
@@ -11,11 +13,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: var(--background-color);
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-

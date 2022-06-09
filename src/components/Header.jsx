@@ -1,27 +1,24 @@
-import React from 'react'
+import React from 'react';
 import { AiOutlineLogin } from 'react-icons/ai';
+import { RiArrowDropDownLine } from 'react-icons/ri';
 
 const Header = () => {
   return (
-    <div className='header'>
-        <div className="header-container">
-         <div className='header-left'>
-            <div className='header-left-info'>
-                <h2>MetaHome</h2>
-                <p>Time</p>
-                <p>Date</p>
-            </div>
-         </div>
-         <div className='header-right'>
-            <div className='header-right-link'>
-                <p className='header-text'>Customer Dashboard</p>
-                <p className='header-text'>Hello Dambujo</p>
-                <AiOutlineLogin className='header-icon'/>
-            </div>
-         </div>
-        </div>
+    <div className="header">
+      <div className="header-container-left">
+        <div className="items meta">MetaHome</div>
+        <div className="items">12.19.50 PM</div>
+        <div className="items">Sunday, 5 december 2021</div>
+      </div>
+      <div className="header-container-right">
+        <div className="header-text custdash">Customer Dashboard</div>
+        <RiArrowDropDownLine className="header-icon dropdown" />
+        <div className="header-text">Hello Dambujo</div>
+        <div className="header-text img-header"></div>
+        <AiOutlineLogin className="header-icon" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

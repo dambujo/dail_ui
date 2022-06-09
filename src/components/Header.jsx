@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineLogin } from 'react-icons/ai';
 import { RiArrowDropDownLine } from 'react-icons/ri';
+import './Header.css';
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
         <RiArrowDropDownLine className="header-icon dropdown" />
         <div className="header-text">Hello Dambujo</div>
         <div className="header-text img-header"></div>
-        <AiOutlineLogin className="header-icon" />
+        <AiOutlineLogin className="header-icon login" />
       </div>
     </div>
   );
